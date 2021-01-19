@@ -34,6 +34,9 @@ Why Volunteer?
 
 Volunteering within a community is a natural way to meet contacts and know our surrounding. Volunteering is also a great example of compassion, solidarity and responsibility - HelpGuide
 
+[![Watch the video](https://voxbox.herokuapp.com/static/media/newlogo.1c08cb97.png)](https://www.youtube.com/watch?v=3rohRIZqLbo&feature=emb_imp_woyt&ab_channel=codelive)
+
+
 ## Tools and Technologies
 
 ### Front End
@@ -171,6 +174,8 @@ npm run dev
 ```
 
 This script will run the frontend and backend on separate ports, the backend on `localhost:5000` with [nodemon](https://nodemon.io/). The frontend will be run using [create-react-app's](https://github.com/facebook/create-react-app) `start` script, redirecting all API calls to `localhost:5000`.
+
+#### You can find more details on the [Instalation Wiki page](https://github.com/gelilaa/VoxBox/wiki/Installation)
 
 [TOP](#organized-for-deployment)
 
