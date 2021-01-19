@@ -1,9 +1,14 @@
-# Organized for Deployment
+# Volunteer xChange Box
 
-A model of how you can set up your project for development, testing & deployment.
+__VoxBox__ is a social platform made by students in HYF Belgium that is aimed to connect both volunteers and help seekers within a community so that we can focus on channeling our inner good and assist each other to build a stronger foundation of a better world.
 
 ### Contents
 
+* [About VoxBox](#about)
+* [Tools and Technologies](*tools-and-technologies)
+* [Contribution](*contribution)
+* [Contact](*contact)
+* [License](*license)
 * [General](#general)
   * [Configuration](#configuration)
 * [Development](#development)
@@ -19,6 +24,63 @@ A model of how you can set up your project for development, testing & deployment
   * [Frontend](#Frontend)
   * [Backend](#backend)
 * [Helpful Links](#helpful-links)
+
+
+## About
+
+__VoxBox__ is a social platform that is aimed to connect volunteers and people who needs some help within a community. VoxBox is made by students in [HackYourFuture Belgium](https://hackyourfuture.be/) as a part of final assignment after following eight months of a solid coding course. This project is inspired by daily difficulties faced both in 2020 during the COVID-19 pandemic and in any other regular days. The team hopes that providing help could be a part of our daily activities as social beings. 
+
+Why Volunteer?
+
+Volunteering within a community is a natural way to meet contacts and know our surrounding. Volunteering is also a great example of compassion, solidarity and responsibility - HelpGuide
+
+## Tools and Technologies
+
+### Front End
+- Figma - Design
+- HTML
+- CSS
+- JavaScript
+- React.js
+- Redux
+- Bootstrap
+- React Bootstrap
+
+### Back End
+- Node.js
+- Express.js
+- MySQL
+- Sequelize
+
+### Deployment
+- Heroku
+
+## Contribution
+
+1. Fork the Project
+2. Create your Feature Branch (git checkout -b new-branch)
+3. Commit your Changes (git commit -m 'Add some AmazingFeature')
+4. Push to the Branch (git push origin new-branch)
+5. Open a Pull Request
+
+## Contact
+
+You can contact the people who work on this project
+- Gelila Ali - [Github](https://github.com/gelilaa) / [LinkedIn](https://www.linkedin.com/in/gelilaali/)
+- Mame Azad - [Github](https://github.com/mametur) / [LinkedIn](https://www.linkedin.com/in/mam%C3%A9/)
+- Yıldıray Koyuncu - [Github](https://github.com/yildiraykoyuncu) / [LinkedIn](https://www.linkedin.com/in/y%C4%B1ld%C4%B1ray-koyuncu-7359b91a5/)
+- Anna Ikoki - [Github](https://github.com/LujiAnna) / [LinkedIn](https://www.linkedin.com/in/annaik/)
+- Oguz Karademir - [Github](https://github.com/oguzkarademir) / [LinkedIn](https://www.linkedin.com/in/oguz-karademir-254493187/)
+- Miroslav Veljanoski - [Github](https://github.com/miroslavveljanoski) / [LinkedIn](https://www.linkedin.com/in/miroslav-veljanoski/)
+- Adek Impianna - [Github](https://github.com/adekimpianna)/ [LinkedIn](https://www.linkedin.com/in/adek-impianna/)
+
+## License
+
+Distributed under the MIT License. See [LICENSE](https://github.com/gelilaa/VoxBox/blob/master/LICENSE) for more information.
+
+# Organized for Deployment
+
+A model of how you can set up your project for development, testing & deployment.
 
 ## General
 
