@@ -34,7 +34,7 @@ Why Volunteer?
 
 Volunteering within a community is a natural way to meet contacts and know our surrounding. Volunteering is also a great example of compassion, solidarity and responsibility - HelpGuide
 
-[![Watch the video](https://voxbox.herokuapp.com/static/media/newlogo.1c08cb97.png)](https://www.youtube.com/watch?v=3rohRIZqLbo&feature=emb_imp_woyt&ab_channel=codelive)
+[![Click to watch VoxBox video](https://i.imgur.com/gK56PcY.png)](https://www.youtube.com/watch?v=3rohRIZqLbo&feature=emb_imp_woyt&ab_channel=codelive)
 
 
 ## Tools and Technologies
