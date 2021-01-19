@@ -5,10 +5,10 @@ __VoxBox__ is a social platform made by students in HYF Belgium that is aimed to
 ### Contents
 
 * [About VoxBox](#about)
-* [Tools and Technologies](*tools-and-technologies)
-* [Contribution](*contribution)
-* [Contact](*contact)
-* [License](*license)
+* [Tools and Technologies](#tools-and-technologies)
+* [Contribution](#contribution)
+* [Contact](#contact)
+* [License](#license)
 * [General](#general)
   * [Configuration](#configuration)
 * [Development](#development)
