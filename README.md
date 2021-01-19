@@ -2,6 +2,8 @@
 
 __VoxBox__ is a social platform made by students in HYF Belgium that is aimed to connect both volunteers and help seekers within a community so that we can focus on channeling our inner good and assist each other to build a stronger foundation of a better world.
 
+![](https://gelilaa.github.io/VoxBox/pictures/LogoLong-removebg.png)
+
 ### Contents
 
 * [About VoxBox](#about)
