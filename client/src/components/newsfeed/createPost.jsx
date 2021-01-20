@@ -53,17 +53,23 @@ const CreatePost = (props) => {
                 history.push('/session_expired')
                 dispatch(logOut())
                  return
-                }else if(data.status < 200 || data.status >= 300){
-          console.log('errors', data.message) 
-          setErrorMessage(data.message)
-        }
+                }else{
+                  if(data.status < 200 || data.status >= 300){
+                 console.log('errors', data.message) 
+                  setErrorMessage(data.message)
+                  
+                    }else {
+                      props.formToggle()
+
+                    }
+                } 
       })
       .catch((error) => {
         console.error('Error:', error);
       });
 
     
-     props.formToggle()
+   
       
   }
 }
