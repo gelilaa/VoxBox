@@ -1,36 +1,35 @@
 # Volunteer xChange Box
 
-__VoxBox__ is a social platform made by students in HYF Belgium that is aimed to connect both volunteers and help seekers within a community so that we can focus on channeling our inner good and assist each other to build a stronger foundation of a better world.
+**VoxBox** is a social platform made by students in HYF Belgium that is aimed to connect both volunteers and help seekers within a community so that we can focus on channeling our inner good and assist each other to build a stronger foundation of a better world.
 
 ![](https://gelilaa.github.io/VoxBox/pictures/LogoLong-removebg.png)
 
 ### Contents
 
-* [About VoxBox](#about)
-* [Tools and Technologies](#tools-and-technologies)
-* [Contribution](#contribution)
-* [Contact](#contact)
-* [License](#license)
-* [General](#general)
-  * [Configuration](#configuration)
-* [Development](#development)
-  * [Getting started](#getting-started)
-  * [API](#api)
-  * [Client](#client)
-  * [Full App](#full-app)
-* [Deployment](#deployment)
-  * [Mock](#mock)
-  * [Manual](#manual)
-  * [Automated](#automated)
-* [Testing](#testing)
-  * [Frontend](#Frontend)
-  * [Backend](#backend)
-* [Helpful Links](#helpful-links)
-
+- [About VoxBox](#about)
+- [Tools and Technologies](#tools-and-technologies)
+- [Contribution](#contribution)
+- [Contact](#contact)
+- [License](#license)
+- [General](#general)
+  - [Configuration](#configuration)
+- [Development](#development)
+  - [Getting started](#getting-started)
+  - [API](#api)
+  - [Client](#client)
+  - [Full App](#full-app)
+- [Deployment](#deployment)
+  - [Mock](#mock)
+  - [Manual](#manual)
+  - [Automated](#automated)
+- [Testing](#testing)
+  - [Frontend](#Frontend)
+  - [Backend](#backend)
+- [Helpful Links](#helpful-links)
 
 ## About
 
-__VoxBox__ is a social platform that is aimed to connect volunteers and people who needs some help within a community. VoxBox is made by students in [HackYourFuture Belgium](https://hackyourfuture.be/) as a part of final assignment after following eight months of a solid coding course. This project is inspired by daily difficulties faced both in 2020 during the COVID-19 pandemic and in any other regular days. The team hopes that providing help could be a part of our daily activities as social beings. 
+**VoxBox** is a social platform that is aimed to connect volunteers and people who needs some help within a community. VoxBox is made by students in [HackYourFuture Belgium](https://hackyourfuture.be/) as a part of final assignment after following eight months of a solid coding course. This project is inspired by daily difficulties faced both in 2020 during the COVID-19 pandemic and in any other regular days. The team hopes that providing help could be a part of our daily activities as social beings.
 
 Why Volunteer?
 
@@ -38,10 +37,10 @@ Volunteering within a community is a natural way to meet contacts and know our s
 
 [![Click to watch VoxBox video](https://i.imgur.com/gK56PcY.png)](https://www.youtube.com/watch?v=3rohRIZqLbo&feature=emb_imp_woyt&ab_channel=codelive)
 
-
 ## Tools and Technologies
 
 ### Front End
+
 - Figma - Design
 - HTML
 - CSS
@@ -52,12 +51,14 @@ Volunteering within a community is a natural way to meet contacts and know our s
 - React Bootstrap
 
 ### Back End
+
 - Node.js
 - Express.js
 - MySQL
 - Sequelize
 
 ### Deployment
+
 - Heroku
 
 ## Contribution
@@ -71,6 +72,7 @@ Volunteering within a community is a natural way to meet contacts and know our s
 ## Contact
 
 You can contact the people who work on this project
+
 - Gelila Ali - [Github](https://github.com/gelilaa) / [LinkedIn](https://www.linkedin.com/in/gelilaali/)
 - Mame Azad - [Github](https://github.com/mametur) / [LinkedIn](https://www.linkedin.com/in/mam%C3%A9/)
 - Yıldıray Koyuncu - [Github](https://github.com/yildiraykoyuncu) / [LinkedIn](https://www.linkedin.com/in/y%C4%B1ld%C4%B1ray-koyuncu-7359b91a5/)
@@ -93,8 +95,7 @@ A model of how you can set up your project for development, testing & deployment
 
 This application reads the secrets from a `.env` [file](https://en.wikipedia.org/wiki/Environment_variable) at the root of this project. A secret is something you don't want to commit to a public repository. The password for your database for instance. A node package [dotenv](https://github.com/motdotla/dotenv) is used to read and parse this file and provides an interface we can use.
 
-Create a file called `.env` to the root. 
-
+Create a file called `.env` to the root.
 
 ```
 DB_HOST=YOUR_IP_OR_DOMAIN
@@ -132,10 +133,9 @@ yarn install
 
 #### Database
 
-Your application will need to persist data. The interaction with the database is abstracted by an [ORM (Object role modelling)](https://nl.wikipedia.org/wiki/Object_role_modeling) called [Sequalize](https://sequelize.org/) . 
+Your application will need to persist data. The interaction with the database is abstracted by an [ORM (Object role modelling)](https://nl.wikipedia.org/wiki/Object_role_modeling) called [Sequalize](https://sequelize.org/) .
 
-Make sure you configure your secrets in line with your development environment. See the [configuration section](#configuration).
-You can create the database and tables by running the `sync.js` script.
+Make sure you configure your secrets in line with your development environment. See the [configuration section](#configuration). You can create the database and tables by running the `sync.js` script.
 
 ```
 node api/scripts/sync.js
@@ -155,7 +155,7 @@ To develop just the API separately from the frontend run:
 npm run dev-api
 ```
 
-This will run your api as though it were part of the full live project.  All routes will be have `api/` appended before them and a get request to `/` will return the string `"frontend"`
+This will run your api as though it were part of the full live project. All routes will be have `api/` appended before them and a get request to `/` will return the string `"frontend"`
 
 ### Client (Frontend)
 
@@ -165,7 +165,7 @@ To develop just the frontend separately from the API run:
 npm run dev-client
 ```
 
-> DISCLAIMER!  this will only work if you have set up a mock-api
+> DISCLAIMER! this will only work if you have set up a mock-api
 
 ### Full App
 
@@ -185,13 +185,13 @@ This script will run the frontend and backend on separate ports, the backend on 
 
 ## Deployment
 
-The main `index.js` in this directory is for deployment. It provides access to your api behind `/api` and statically serves the client from `/client/build`.  You can copy-paste this file directly, there should be need to modify it for your project.
+The main `index.js` in this directory is for deployment. It provides access to your api behind `/api` and statically serves the client from `/client/build`. You can copy-paste this file directly, there should be need to modify it for your project.
 
-In order for your project to run on Heroku, the main `package.json` needs a `start` command.  This is already taken care of for you.
+In order for your project to run on Heroku, the main `package.json` needs a `start` command. This is already taken care of for you.
 
 ### Mock
 
-To mock deployment on your local machine you can run these commands.  The app will build and run the same as it will on Heroku to help you troubleshoot your deployed project locally.
+To mock deployment on your local machine you can run these commands. The app will build and run the same as it will on Heroku to help you troubleshoot your deployed project locally.
 
 ```bash
 npm run heroku-postbuild
@@ -200,8 +200,8 @@ npm run start
 
 ### Getting started
 
-Create a [Heroku account](https://signup.heroku.com/) and install the [Heroku cli](https://devcenter.heroku.com/articles/heroku-cli).
-Verify the installation with
+Create a [Heroku account](https://signup.heroku.com/) and install the [Heroku cli](https://devcenter.heroku.com/articles/heroku-cli). Verify the installation with
+
 ```bash
 heroku status
 ```
@@ -227,6 +227,7 @@ git push heroku master
 ---
 
 ## Testing
+
 To locally execute your tests, run the following commands
 
 ### Frontend
@@ -234,7 +235,6 @@ To locally execute your tests, run the following commands
 ```bash
 cd client
 npm install
-npm run test:watch
 ```
 
 ### Backend
@@ -242,7 +242,6 @@ npm run test:watch
 ```bash
 cd api
 npm install
-npm run test:watch
 ```
 
 ### Continuous integration
@@ -255,9 +254,9 @@ Test run on each commit on the master branch using [Github actions](https://docs
 
 ## Helpful Links
 
-* [Heroku devhints](https://devhints.io/heroku)
-* [Heroku DevCenter: Node.js Support](https://devcenter.heroku.com/articles/nodejs-support)
-* [Heroku DevCenter: Advanced Automation](https://devcenter.heroku.com/articles/multiple-environments#advanced-linking-local-branches-to-remote-apps)
+- [Heroku devhints](https://devhints.io/heroku)
+- [Heroku DevCenter: Node.js Support](https://devcenter.heroku.com/articles/nodejs-support)
+- [Heroku DevCenter: Advanced Automation](https://devcenter.heroku.com/articles/multiple-environments#advanced-linking-local-branches-to-remote-apps)
 
 [TOP](#organized-for-deployment)
 
